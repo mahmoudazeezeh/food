@@ -1,9 +1,10 @@
+
 export const foodData = {
   "main-dishes": [
     {
       id: "maqluba",
       name: "مقلوبة",
-      image: "/public/images/maqluba.png",
+      image: "/images/maqluba.png",
       description: "طبق فلسطيني تقليدي من الأرز واللحم والخضار، يقلب عند التقديم ليصبح الأرز في الأعلى.",
       options: [
         { id: "chicken", name: "دجاج" },
@@ -16,7 +17,7 @@ export const foodData = {
     {
       id: "musakhan",
       name: "مسخن",
-      image: "/public/images/musakhan.png",
+      image: "/images/musakhan.png",
       description: "خبز طابون مغطى بالبصل المقلي والسماق والزيت، يقدم مع الدجاج المشوي.",
       options: [
         { id: "onion", name: "بصل إضافي" },
@@ -27,7 +28,7 @@ export const foodData = {
     {
       id: "maftoul",
       name: "مفتول",
-      image: "/public/images/maftoul.png",
+      image: "/images/maftoul.png",
       description: "حبوب المفتول المطبوخة مع المرق والدجاج والحمص والخضار.",
       options: [
         { id: "chicken", name: "دجاج" },
@@ -38,7 +39,7 @@ export const foodData = {
     {
       id: "dawali",
       name: "ورق عنب",
-      image: "/public/images/dawali.png",
+      image: "/images/dawali.png",
       description: "أوراق العنب المحشوة بالأرز واللحم المفروم والتوابل.",
       options: [
         { id: "meat", name: "لحمة" },
@@ -50,7 +51,7 @@ export const foodData = {
     {
       id: "shishbarak",
       name: "ششبرك",
-      image: "/public/images/shishbarak.png",
+      image: "/images/shishbarak.png",
       description: "عجينة محشوة باللحم المفروم ومطبوخة باللبن.",
       options: [
         { id: "extra-meat", name: "لحمة إضافية" },
@@ -61,7 +62,7 @@ export const foodData = {
     {
       id: "malfouf",
       name: "ملفوف",
-      image: "/public/images/malfouf.png",
+      image: "/images/malfouf.png",
       description: "أوراق الملفوف المحشوة بالأرز واللحم المفروم.",
       options: [
         { id: "meat", name: "لحمة" },
@@ -72,7 +73,7 @@ export const foodData = {
    {
   id: "kousa-yogurt",
   name: "مخشي",
-  image: "/public/images/kousa-yogurt.png", 
+  image: "/images/kousa-yogurt.png", 
   description: "كوسا محشي بالأرز واللحم، مطبوخ بصلصة اللبن، يقدم ساخناً مع خبز الطابون.",
   options: [
     { id: "extra-yogurt", name: "لبن إضافي" },
@@ -84,7 +85,7 @@ export const foodData = {
     {
       id: "mulukhiyah",
       name: "ملوخية",
-      image: "/public/images/mulukhiyah.png",
+      image: "/images/mulukhiyah.png",
       description: "أوراق الملوخية المطبوخة مع الدجاج أو اللحم، تقدم مع الأرز.",
       options: [
         { id: "chicken", name: "دجاج" },
@@ -97,7 +98,7 @@ export const foodData = {
     {
       id: "zaatar",
       name: "زعتر",
-      image: "/public/images/zaatar.png",
+      image: "/images/zaatar.png",
       description: "خلطة الزعتر البلدي مع السماق والسمسم وزيت الزيتون.",
       options: [
         { id: "sumac", name: "سماق إضافي" },
@@ -107,7 +108,7 @@ export const foodData = {
     {
       id: "olive-oil",
       name: " زيتون مكبوس",
-      image: "/public/images/olive-oil.png",
+      image: "/images/olive-oil.png",
       description: "زيت زيتون فلسطيني أصلي معصور على البارد من أشجار الزيتون المعمرة.",
       options: [
         { id: "small", name: "عبوة صغيرة" },
@@ -120,7 +121,7 @@ export const foodData = {
     {
       id: "black-olives",
       name: "زيتون أسود",
-      image: "/public/images/black-olives.png",
+      image: "/images/black-olives.png",
       description: "زيتون أسود فلسطيني مكبوس بالطريقة التقليدية.",
       options: [
          { id: "small", name: "عبوة صغيرة" },
@@ -133,7 +134,7 @@ export const foodData = {
     {
       id: "labneh",
       name: "لبنة مدحبرة",
-      image: "/public/images/labneh.png",
+      image: "/images/labneh.png",
       description: "لبنة مصفاة مشكلة على هيئة كرات ومحفوظة في زيت الزيتون.",
       options: [
         { id: "zaatar", name: "مع زعتر" },
@@ -146,7 +147,7 @@ export const foodData = {
     {
       id: "makdous",
       name: "مكدوس",
-      image: "/public/images/makdous.png",
+      image: "/images/makdous.png",
       description: "باذنجان صغير محشو بالجوز والفلفل والثوم ومحفوظ في زيت الزيتون.",
       options: [
         { id: "extra-walnuts", name: "جوز إضافي" },
@@ -160,7 +161,7 @@ export const foodData = {
     {
       id: "chili-paste",
       name: "شطة بلدية",
-      image: "/public/images/chili-paste.png",
+      image: "/images/chili-paste.png",
       description: "شطة حارة بلدية مصنوعة من الفلفل الحار الطازج والتوابل.",
       options: [
         { id: "extra-hot", name: "حارة جداً" },
@@ -174,7 +175,7 @@ export const foodData = {
     {
       id: "stuffed-olives",
       name: "زيتون محشي",
-      image: "/public/images/stuffed-olives.png",
+      image: "/images/stuffed-olives.png",
       description: "زيتون محشي باللوز أو الفلفل أو الليمون.",
       options: [
         { id: "almond", name: "محشي لوز" },
@@ -188,7 +189,7 @@ export const foodData = {
     {
       id: "plain-olives",
       name: "زيتون مكبوس مفرغ",
-      image: "/public/images/plain-olives.png",
+      image: "/images/plain-olives.png",
       description: "زيتون مكبوس مفرغ من النواة.",
       options: [
         { id: "green", name: "أخضر" },
@@ -201,7 +202,7 @@ export const foodData = {
     {
       id: "pickles",
       name: "مخللات",
-      image: "/public/images/pickles.png",
+      image: "/images/pickles.png",
       description: "تشكيلة من المخللات البلدية المكبوسة بالخل والتوابل.",
       options: [
         { id: "cucumber", name: "خيار مخلل" },
@@ -218,7 +219,7 @@ export const foodData = {
     {
       id: "cheese-pastry",
       name: "معجنات جبنة",
-      image: "/public/images/cheese-pastry.png",
+      image: "/images/cheese-pastry.png",
       description: "عجينة مخبوزة محشوة بالجبنة البلدية.",
       options: [
         { id: "sesame", name: "مع سمسم" },
@@ -228,7 +229,7 @@ export const foodData = {
     {
       id: "zaatar-pastry",
       name: "معجنات زعتر",
-      image: "/public/images/zaatar-pastry.png",
+      image: "/images/zaatar-pastry.png",
       description: "عجينة مخبوزة محشوة بالزعتر وزيت الزيتون.",
       options: [
         { id: "sesame", name: "مع سمسم" },
@@ -238,7 +239,7 @@ export const foodData = {
     {
       id: "taboon-bread",
       name: "خبز طابون",
-      image: "/public/images/taboon-bread.png",
+      image: "/images/taboon-bread.png",
       description: "خبز تقليدي مخبوز في فرن الطابون.",
       options: [
         { id: "without-sesame", name: "بدون سمسم" },
@@ -248,7 +249,7 @@ export const foodData = {
     {
       id: "sausage-pastry",
       name: "معجنات نقانق",
-      image: "/public/images/sausage-pastry.png",
+      image: "/images/sausage-pastry.png",
       description: "عجينة مخبوزة محشوة بالنقانق والتوابل.",
       options: [
         { id: "cheese", name: "مع جبنة" },
@@ -258,7 +259,7 @@ export const foodData = {
     {
       id: "sfeeha",
       name: "صفيحة تركية",
-      image: "/public/images/sfeeha.png",
+      image: "/images/sfeeha.png",
       description: "عجينة مفتوحة محشوة باللحم المفروم والبصل والبهارات.",
       options: [
         { id: "extra-meat", name: "لحم إضافي" },
@@ -268,7 +269,7 @@ export const foodData = {
     {
       id: "sausage-cheese",
       name: "نقانق وجبنة بيضاء",
-      image: "/public/images/sausage-cheese.png",
+      image: "/images/sausage-cheese.png",
       description: "عجينة محشوة بالنقانق والجبنة البيضاء.",
       options: [
         { id: "extra-cheese", name: "جبنة إضافية" },
@@ -279,7 +280,7 @@ export const foodData = {
     {
       id: "zalabia",
       name: "زلابية",
-      image: "/public/images/zalabia.png",
+      image: "/images/zalabia.png",
       description: "حلوى مقلية مغطاة بالقطر أو العسل.",
       options: [
         { id: "syrup", name: "مع قطر" },
@@ -289,7 +290,7 @@ export const foodData = {
     {
       id: "pizza",
       name: "بيتزا",
-      image: "/public/images/pizza.png",
+      image: "/images/pizza.png",
       description: "بيتزا محضرة على الطريقة الفلسطينية.",
       options: [
         { id: "vegetable", name: "خضار" },
@@ -301,7 +302,7 @@ export const foodData = {
     {
       id: "egg-pastry",
       name: "معجنات بيض",
-      image: "/public/images/egg-pastry.png",
+      image: "/images/egg-pastry.png",
       description: "عجينة محشوة بالبيض والجبنة.",
       options: [
         { id: "cheese", name: "مع جبنة" },
@@ -311,7 +312,7 @@ export const foodData = {
     {
   id: "PalestinianYellowKaak",
   name: "كعك أصفر",
-  image: "/public/images/yellow-kaak.png", // تأكد من توفر الصورة المناسبة
+  image: "/images/yellow-kaak.png", // تأكد من توفر الصورة المناسبة
   description: "كعك فلسطيني تقليدي يُخبز بالسميد، محشو أو يُزين بالجبنة، القزحة، والسمسم. يُقدم في المناسبات والأعياد.",
   options: [
     { id: "cheese-top", name: "كعك على وجهه جبنة" },
@@ -325,7 +326,7 @@ export const foodData = {
     {
       id: "stuffed-intestines",
       name: "محشي مصارين",
-      image: "/public/images/stuffed-intestines.png",
+      image: "/images/stuffed-intestines.png",
       description: "مصارين الخاروف المحشوة بالأرز والتوابل.",
       options: [
         { id: "rice", name: "رز عادي" },
@@ -336,7 +337,7 @@ export const foodData = {
     {
       id: "tripe",
       name: "كرشة",
-      image: "/public/images/tripe.png",
+      image: "/images/tripe.png",
       description: "كرشة الخاروف المطبوخة مع التوابل والحمص.",
       options: [
         { id: "chickpeas", name: "مع حمص" },
@@ -348,7 +349,7 @@ export const foodData = {
     {
       id: "harissa",
       name: "هريسة",
-      image: "/public/images/harissa.png",
+      image: "/images/harissa.png",
       description: "حلوى تقليدية مصنوعة من السميد والسكر والقطر.",
       options: [
         { id: "coconut", name: "مع جوز الهند" },
@@ -358,7 +359,7 @@ export const foodData = {
     {
       id: "qizha",
       name: "قزحة",
-      image: "/public/images/qizha.png",
+      image: "/images/qizha.png",
       description: "حلوى تقليدية مصنوعة من الطحينة السوداء والسكر.",
       options: [
         { id: "pistachios", name: "مع فستق حلبي" },
@@ -368,7 +369,7 @@ export const foodData = {
     {
       id: "maamoul",
       name: "معمول",
-      image: "/public/images/maamoul.png",
+      image: "/images/maamoul.png",
       description: "كعك محشو بالتمر أو الجوز أو الفستق الحلبي.",
       options: [
         { id: "dates", name: "تمر" },
@@ -380,7 +381,7 @@ export const foodData = {
     {
       id: "halba",
       name: "صواني حلبة",
-      image: "/public/images/halba.png",
+      image: "/images/halba.png",
       description: "حلوى تقليدية مصنوعة من الحلبة والسكر والقطر.",
       options: [
         { id: "plain", name: "عادية" },

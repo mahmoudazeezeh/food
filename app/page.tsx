@@ -15,12 +15,12 @@ export default function Home() {
   }, [])
 
   const foodItems = [
-    { name: "مقلوبة", image: "/public/images/maqluba.png", position: { top: "10%", right: "15%" } },
-    { name: "مسخن", image: "/public/images/musakhan.png", position: { top: "20%", right: "75%" } },
-    { name: "كنافة", image: "/public/images/black-olives.png", position: { top: "70%", right: "20%" } },
-    { name: "خبيزة", image: "/public/images/pickles.png", position: { top: "60%", right: "70%" } },
-    { name: "زيت زيتون", image: "/public/images/olive-oil.png", position: { top: "40%", right: "30%" } },
-    { name: "مفتول", image: "/public/images/maftoul.png", position: { top: "30%", right: "50%" } },
+    { name: "مقلوبة", image: "/images/maqluba.png", position: { top: "10%", right: "15%" } },
+    { name: "مسخن", image: "/images/musakhan.png", position: { top: "20%", right: "75%" } },
+    { name: "كنافة", image: "/images/black-olives.png", position: { top: "70%", right: "20%" } },
+    { name: "خبيزة", image: "/images/pickles.png", position: { top: "60%", right: "70%" } },
+    { name: "زيت زيتون", image: "/images/olive-oil.png", position: { top: "40%", right: "30%" } },
+    { name: "مفتول", image: "/images/maftoul.png", position: { top: "30%", right: "50%" } },
   ]
 
   return (
@@ -28,7 +28,7 @@ export default function Home() {
       {/* تطريز فلسطيني في الخلفية */}
       <div className="absolute inset-0 opacity-5 pointer-events-none">
         <ImageFallback
-          src="/public/images/tatreez-pattern.png"
+          src="/images/tatreez-pattern.png"
           alt="تطريز فلسطيني"
           fill
           className="object-cover"
@@ -70,7 +70,7 @@ export default function Home() {
           className="relative w-40 h-40 mb-6"
         >
           <ImageFallback
-            src="/public/images/logo.png"
+            src="/images/logo.png"
             alt="شعار مذاقات من فلسطين"
             fill
             className="object-contain"
