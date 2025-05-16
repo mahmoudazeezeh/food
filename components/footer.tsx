@@ -19,7 +19,7 @@ export function Footer() {
             <Link href="/" className="flex items-center mb-4">
               <div className="relative w-12 h-12 mr-2">
                 <ImageFallback
-                  src="/public/images/logo.png"
+                  src="/images/logo.png"
                   alt="شعار مذاقات من فلسطين"
                   fill
                   className="object-contain"

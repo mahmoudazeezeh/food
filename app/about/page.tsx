@@ -16,7 +16,7 @@ export default function AboutPage() {
               <div className="md:w-1/3 mb-6 md:mb-0">
                 <div className="relative w-48 h-48 mx-auto">
                   <ImageFallback
-                    src="/images/logo.png"
+                    src="/public/images/logo.png"
                     alt="شعار مذاقات من فلسطين"
                     fill
                     className="object-contain"
@@ -73,7 +73,7 @@ export default function AboutPage() {
               <div className="flex items-start">
                 <div className="bg-green-100 p-3 rounded-full mr-4">
                   <ImageFallback
-                    src="/images/tradition.png"
+                    src="/images/logo.png"
                     alt="وصفات تقليدية"
                     width={32}
                     height={32}

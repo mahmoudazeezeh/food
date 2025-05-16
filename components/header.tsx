@@ -31,7 +31,7 @@ export function Header() {
             <Link href="/" className="flex items-center">
               <div className="relative w-10 h-10 mr-2">
                 <ImageFallback
-                  src="/public/images/logo.png"
+                  src="/images/logo.png"
                   alt="شعار مذاقات من فلسطين"
                   fill
                   className="object-contain"
