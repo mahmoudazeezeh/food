@@ -16,7 +16,7 @@ export default function AboutPage() {
               <div className="md:w-1/3 mb-6 md:mb-0">
                 <div className="relative w-48 h-48 mx-auto">
                   <ImageFallback
-                    src="/public/images/logo.png"
+                    src="/images/logo.png"
                     alt="شعار مذاقات من فلسطين"
                     fill
                     className="object-contain"
