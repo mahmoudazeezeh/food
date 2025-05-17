@@ -17,10 +17,10 @@ export default function Home() {
   const foodItems = [
     { name: "مقلوبة", image: "/images/maqluba.png", position: { top: "10%", right: "15%" } },
     { name: "مسخن", image: "/images/musakhan.png", position: { top: "20%", right: "75%" } },
-    { name: "كنافة", image: "/images/black-olives.png", position: { top: "70%", right: "20%" } },
+  
     { name: "خبيزة", image: "/images/pickles.png", position: { top: "60%", right: "70%" } },
-    { name: "زيت زيتون", image: "/images/olive-oil.png", position: { top: "40%", right: "30%" } },
-    { name: "مفتول", image: "/images/maftoul.png", position: { top: "30%", right: "50%" } },
+    { name: "زيت زيتون", image: "/images/olive-oil.png", position: { top: "80%", right: "40%" } },
+    { name: "مفتول", image: "/images/maftoul.png", position: { top: "10%", right: "50%" } },
   ]
 
   return (

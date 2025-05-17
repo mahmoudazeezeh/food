@@ -326,7 +326,7 @@ export const foodData = {
     {
       id: "stuffed-intestines",
       name: "محشي مصارين",
-      image: "/images/stuffed-intestines.png",
+      image: "/images/stuffed-intestinges.png",
       description: "مصارين الخاروف المحشوة بالأرز والتوابل.",
       options: [
         { id: "rice", name: "رز عادي" },
